@@ -1,0 +1,15 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/pulumi:1": {
+			"bashCompletion": true,
+			"version": "3.86.0"
+		},
+		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {
+			"version": "1.5.5"
+		},
+		"ghcr.io/devcontainers-contrib/features/terraform-ls-asdf:2": {
+			"version": "latest"
+		}
+	}
+}
