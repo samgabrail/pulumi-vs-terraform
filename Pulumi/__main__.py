@@ -6,8 +6,8 @@ bucket = s3.Bucket("env0-pulumi-example",
                    bucket="env0-pulumi-example",
                    acl="private",
                    tags={
-                       "Name": "env0-pulumi-example-bucket",
-                       "Environment": "Production",
+                       "Name": "My env0 Pulumi Example Bucket",
+                       "Environment": "Dev",
                    })
 
 ownership = s3.BucketOwnershipControls(
