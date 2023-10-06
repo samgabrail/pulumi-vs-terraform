@@ -1,0 +1,6 @@
+name: env0-pulumi-example
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: An S3 bucket using Pulumi
